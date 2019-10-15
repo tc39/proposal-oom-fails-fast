@@ -10,6 +10,8 @@ Presented to TC39 (Javascript standards committee), achieving stage 1.
 
 [<img src="oom-miniplayer.png" alt="Presentation to TC39" width="40%">](https://www.youtube.com/watch?v=wNM2B4GFf3s&list=PLzDw4TTug5O0ywHrOz4VevVTYr6Kj_KtW)
 
+[Slides](https://github.com/tc39/agendas/blob/master/2019/10.oom-fails-fast-as-recorded.pdf)
+
 ## Summary
 
 The ECMAScript specification nowhere mentions the possibility of running out of memory (OOM), and so cannot be correctly implemented on finite memory machines. Allocation in JavaScript is pervasive and implicit, implying that an OOM may happen anywhere in the execution of the program. If OOM threw a catchable error, computation within the agent would continue in an inconsistent state. Instead, we should immediately terminate the agent cluster, in order to abandon all unrepairable inconsistent state.
