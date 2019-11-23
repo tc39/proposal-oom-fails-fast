@@ -2,7 +2,7 @@
 
 ## Out-of-memory MUST immediately terminate the agent cluster
 
-by Mark S. Miller (@erights) and J.F. Paradis (@jfparadis)
+by Mark S. Miller (@erights), J.F. Paradis (@jfparadis), Peter Hoddie (@phoddie)
 
 ## Status
 
