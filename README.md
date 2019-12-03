@@ -1,8 +1,10 @@
 # proposal-oom-fails-fast
 
-## Out-of-memory MUST immediately terminate the agent cluster
+*Out-of-memory MUST immediately terminate the agent cluster.*
 
-by Mark S. Miller (@erights), J.F. Paradis (@jfparadis), Peter Hoddie (@phoddie)
+   * Mark S. Miller @erights, Agoric
+   * J.F. Paradis @jfparadis, Agoric
+   * Peter Hoddie @phoddie, Moddable
 
 ## Status
 
