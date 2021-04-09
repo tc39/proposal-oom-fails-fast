@@ -1,5 +1,7 @@
 # proposal-oom-fails-fast
 
+![Stage 1](https://badges.aleen42.com/src/tc39_2.svg)
+
 *Out-of-memory MUST immediately terminate the agent cluster.*
 
    * Mark S. Miller @erights, Agoric
