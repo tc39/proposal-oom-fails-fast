@@ -1,6 +1,10 @@
-# proposal-oom-fails-fast
+# OOM (out of memory) Must Panic
+
+(was titled "proposal-oom-fails-fast" but "panic" is clearer)
 
 *Out-of-memory MUST immediately terminate the agent cluster.*
+
+This includes both stack and heap memory.
 
    * Mark S. Miller @erights, Agoric
    * J.F. Paradis @jfparadis, Agoric
