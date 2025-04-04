@@ -1,0 +1,2 @@
+// The Mask
+const SOMEBODY_STOP_ME = 0x00040000;
