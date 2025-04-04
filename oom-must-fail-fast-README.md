@@ -1,6 +1,4 @@
-# OOM (out of memory) Must Panic
-
-(was titled "proposal-oom-fails-fast" but "panic" is clearer)
+# OOM (out of memory) Must Fail-Fast
 
 *Out-of-memory MUST immediately terminate the agent cluster.*
 
@@ -16,7 +14,7 @@ Presented to TC39 (Javascript standards committee), achieving stage 1.
 
 [<img src="oom-miniplayer.png" alt="Presentation to TC39" width="40%">](https://www.youtube.com/watch?v=wNM2B4GFf3s&list=PLzDw4TTug5O0ywHrOz4VevVTYr6Kj_KtW)
 
-[Slides](https://github.com/tc39/agendas/blob/master/2019/10.oom-fails-fast-as-recorded.pdf)
+[Slides](./panic-talks/oom-fails-fast-for-stage1.pdf)
 
 ## Summary
 
