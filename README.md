@@ -31,7 +31,7 @@ to be invoked for various from various internal fault conditions, so the host ca
 ```js
 Reflect.panic(arg = undefined)
 ```
-So JavaScript code can directly fault to `HostFaultHandler`.
+so JavaScript code can directly fault to `HostFaultHandler`.
 
 ## Why
 
