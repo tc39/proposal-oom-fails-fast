@@ -7,7 +7,7 @@ A TC39 proposal for both
 
 ## Status
 
-Achieved Stage 1 as [OOM Must Fail-Fast](./README.md)
+Achieved Stage 1 as [OOM Must Fail-Fast](./oom-must-fail-fast-README.md)
 
 Co-Champions
 - Mark S. Miller, Agoric (@erights)
@@ -15,10 +15,32 @@ Co-Champions
 
 ## Presentations
 
-"OOM Must Fail-Fast" for Stage 1 ([video](https://www.youtube.com/watch?v=wNM2B4GFf3s&list=PLzDw4TTug5O0ywHrOz4VevVTYr6Kj_KtW), [pdf slides](./panic-talks/oom-fails-fast-for-stage1.pdf))
+***for stage 1*** - October 2019 plenary - "OOM Must Fail-Fast" ([video](https://www.youtube.com/watch?v=wNM2B4GFf3s&list=PLzDw4TTug5O0ywHrOz4VevVTYr6Kj_KtW), [pdf slides](./panic-talks/oom-fails-fast-for-stage1.pdf))
 
-"Don't Remember Panicking" Stage 1 Update ([keynote slides](./panic-talks/dont-remember-panicking.key), [pdf slides](./panic-talks/dont-remember-panicking.pdf))
+***stage 1 update*** - April 2025 plenary - "Don't Remember Panicking" ([keynote slides](./panic-talks/dont-remember-panicking.key), [pdf slides](./panic-talks/dont-remember-panicking.pdf))
 
-## TODO explain
+## What
 
-But see presentation ([keynote slides](./panic-talks/dont-remember-panicking.key), [pdf slides](./panic-talks/dont-remember-panicking.pdf)) in the meantime.
+- A new Host Hook
+```js
+HostFaultHandler(faultType, arg = undefined)
+```
+to be invoked for various from various internal fault conditions, so the host can react according to the host's policy. Including sudden termination of "Minimal Abortable Unit of Computation", such as an Agent cluster.
+
+- A new built-in
+```js
+Reflect.panic(arg = undefined)
+```
+So JavaScript code can directly fault to `HostFaultHandler`.
+
+## Why
+
+See [OOM Must Fail-Fast](./oom-must-fail-fast-README.md) for the original motivation and rationale, most of which is still interesting and valid.
+
+See "Don't Remember Panicking" Stage 1 Update ([keynote slides](./panic-talks/dont-remember-panicking.key), [pdf slides](./panic-talks/dont-remember-panicking.pdf)) for the expanded motivation and rationale
+
+## Acknowledgements
+
+Thanks to Felipe Natal for bring our attention to a problem that
+- revived our interest in this old "OOM Must Fail Fast" proposal.
+- needed the addition of a user `panic` operation to solve.
