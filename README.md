@@ -7,6 +7,8 @@ A TC39 proposal for both
 
 ## Status
 
+[The TC39 Process](https://tc39.es/process-document/)
+
 Achieved Stage 1 as [OOM Must Fail-Fast](./oom-must-fail-fast-README.md)
 
 Co-Champions
