@@ -15,9 +15,9 @@ Co-Champions
 
 ## Presentations
 
-***for stage 1*** - October 2019 plenary - "OOM Must Fail-Fast" ([video](https://www.youtube.com/watch?v=wNM2B4GFf3s&list=PLzDw4TTug5O0ywHrOz4VevVTYr6Kj_KtW), [pdf slides](./panic-talks/oom-fails-fast-for-stage1.pdf))
+- ***for stage 1*** - October 2019 plenary - "OOM Must Fail-Fast" ([video](https://www.youtube.com/watch?v=wNM2B4GFf3s&list=PLzDw4TTug5O0ywHrOz4VevVTYr6Kj_KtW), [pdf slides](./panic-talks/oom-fails-fast-for-stage1.pdf))
 
-***stage 1 update*** - April 2025 plenary - "Don't Remember Panicking" ([keynote slides](./panic-talks/dont-remember-panicking.key), [pdf slides](./panic-talks/dont-remember-panicking.pdf))
+- ***stage 1 update*** - April 2025 plenary - "Don't Remember Panicking" ([keynote slides](./panic-talks/dont-remember-panicking.key), [pdf slides](./panic-talks/dont-remember-panicking.pdf))
 
 ## What
 
