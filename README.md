@@ -14,6 +14,7 @@ Achieved Stage 1 as [OOM Must Fail-Fast](./oom-must-fail-fast-README.md)
 Co-Champions
 - Mark S. Miller, Agoric (@erights)
 - Peter Hoddie, Moddable (@phoddie)
+- Zbyszek Tenerowicz (@naugtur)
 
 ## Presentations
 
