@@ -15,6 +15,7 @@ Co-Champions
 - Mark S. Miller, Agoric (@erights)
 - Peter Hoddie, Moddable (@phoddie)
 - Zbyszek Tenerowicz (@naugtur)
+- Christopher Hiller (@boneskull)
 
 ## Presentations
 
