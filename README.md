@@ -37,7 +37,7 @@ Reflect.panic(arg = undefined)
 ```
 so JavaScript code can directly fault to `HostFaultHandler`.
 
-See [ponyfill `panic`](https://github.com/endojs/endo/pull/2815) for an imperfect ponyfill of the `panic` function from this proposal.
+See [`@endo/panic`](https://github.com/endojs/endo/tree/master/packages/panic) for an imperfect ponyfill of the `panic` function from this proposal.
 
 ## Why
 
