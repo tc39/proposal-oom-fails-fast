@@ -37,6 +37,8 @@ Reflect.panic(arg = undefined)
 ```
 so JavaScript code can directly fault to `HostFaultHandler`.
 
+See [ponyfill `panic`](https://github.com/endojs/endo/pull/2815) for an imperfect ponyfill of the `panic` function from this proposal.
+
 ## Why
 
 See [OOM Must Fail-Fast](./oom-must-fail-fast-README.md) for the original motivation and rationale, most of which is still interesting and valid.
